@@ -16,15 +16,19 @@ var vrView;
 
 // All the scenes for the experience
 var scenes = {
-  boilerRoom1: {
+  FLXBOTBoilerRoom1: {
+    image: 'flxbotCamera1.jpg',
+    preview: 'flxbotCamera1-preview.jpg'
+  },
+  iPhoneBoilerRoom1: {
     image: 'sphericalStitchLightroom.jpg',
     preview: 'sphericalStitchLightroom-preview.jpg'
   },
-  boilerRoom2: {
+  iPhoneBoilerRoom2: {
     image: 'vantagePoint1.jpg',
     preview: 'vantagePoint1-preview.jpg'
   },
-  boilerRoom3: {
+  iPhoneBoilerRoom3: {
     image: 'vantagePoint2.jpg',
     preview: 'vantagePoint2-preview.jpg'
   },
@@ -81,7 +85,7 @@ function onVRViewReady(e) {
     });
   }
 
-  loadScene('boilerRoom1');
+  loadScene('iPhoneBoilerRoom1');
 }
 
 function onModeChange(e) {
